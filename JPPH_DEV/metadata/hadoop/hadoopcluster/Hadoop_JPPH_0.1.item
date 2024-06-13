@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendHadoopCluster:HadoopClusterConnection xmlns:TalendHadoopCluster="http://www.talend.org/hadoopcluster" xmlns:xmi="http://www.omg.org/XMI" authMode="USERNAME" clouderaNaviClientUrl="http://localhost" clouderaNaviMetadataUrl="http://localhost:7187/api/v8/metadata/plugin" clouderaNaviUrl="http://localhost:7187/api/v8/" clouderaNaviUserName="username" dfVersion="SPARK_3_1_x" distribution="SPARK" group="" jobHistory="0.0.0.0:10020" jobHistoryPrincipal="mapred/_HOST@EXAMPLE.COM" jobTrackerURI="10.0.0.5:8032" jtOrRmPrincipal="yarn/_HOST@EXAMPLE.COM" label="Hadoop_JPPH" name="Hadoop_JPPH" nameNodeURI="hdfs://10.0.0.5:9000" preloadAuthentification="true" principal="hdfs/_HOST@EXAMPLE.COM" rmScheduler="10.0.0.5:8030" stagingDirectory="/user" useDNHost="true" useSparkProperties="true" useYarn="true" userName="hadoop" xmi:id="_yIofUCk3Ee-mQ9cZJ7uHsg" xmi:version="2.0">
+  <parameters key="CONN_PARA_KEY_DATABRICKS_ENDPOINT" value="https://westeurope.azuredatabricks.net" xmi:id="_yIpGYCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_DATABRICKS_CLOUD_PROVIDER" value="AZURE" xmi:id="_yIpGYSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_DATABRICKS_RUN_MODE" value="CREATE_RUN_JOB" xmi:id="_yIpGYik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_DATABRICKS_CLUSTER_ID" value="" xmi:id="_yIpGYyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_DATABRICKS_TOKEN" value="" xmi:id="_yIpGZCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_DATABRICKS_DBFS_DEP_FOLDER" value="" xmi:id="_yIpGZSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_SUBMIT_MODE" value="SPARK_SUBMIT" xmi:id="_yIpGZik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_MASTER" value="k8s://https://0.0.0.0:12345" xmi:id="_yIpGZyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_INSTANCES" value="5" xmi:id="_yIpGaCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_REGISTRYSECRET" value="registry-secret" xmi:id="_yIpGaSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_IMAGE" value="registry:port/image:tag" xmi:id="_yIpGaik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_NAMESPACE" value="default" xmi:id="_yIpGayk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_SERVICEACCOUNT" value="spark" xmi:id="_yIpGbCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_DISTUPLOAD" value="S3" xmi:id="_yIpGbSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_S3BUCKET" value="" xmi:id="_yIpGbik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_S3FOLDER" value="/path/to/folder" xmi:id="_yIpGbyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_S3CREDENTIALS" value="ACCESSANDSECRET" xmi:id="_yIpGcCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_S3ACCESSKEY" value="" xmi:id="_yIpGcSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_S3SECRETKEY" value="" xmi:id="_yIpGcik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_BLOBACCOUNT" value="" xmi:id="_yIpGcyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_BLOBCONTAINER" value="" xmi:id="_yIpGdCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_BLOBSECRETKEY" value="" xmi:id="_yIpGdSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_AZUREACCOUNT" value="" xmi:id="_yIpGdik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_AZURECREDENTIALS" value="SECRET" xmi:id="_yIpGdyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_AZURECONTAINER" value="" xmi:id="_yIpGeCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_AZURESECRETKEY" value="" xmi:id="_yIpGeSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_AZUREAADKEY" value="" xmi:id="_yIpGeik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_AZUREAADCLIENTID" value="" xmi:id="_yIpGeyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_K8S_AZUREAADDIRECTORYID" value="" xmi:id="_yIpGfCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_HADOOP_CONF_SPECIFIC_JAR" value="" xmi:id="_yIpGfSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SET_HADOOP_CONF" value="false" xmi:id="_yIpGfik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_GOOGLE_PROJECT_ID" value="my-google-project" xmi:id="_yIpGfyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_GOOGLE_CLUSTER_ID" value="my-cluster-id" xmi:id="_yIpGgCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_GOOGLE_REGION" value="global" xmi:id="_yIpGgSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_GOOGLE_JARS_BUCKET" value="gs://my-bucket/talend/jars" xmi:id="_yIpGgik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_PATH_TO_GOOGLE_CREDENTIALS" value="" xmi:id="_yIpGgyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_OAUTH2_TOKEN_TO_GOOGLE_CREDENTIALS" value="" xmi:id="_yIpGhCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_WEB_HCAT_HOSTNAME" value="clustername.azurehdinsight.net" xmi:id="_yIpGhSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_WEB_HCAT_PORT" value="443" xmi:id="_yIpGhik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_WEB_HCAT_USERNAME" value="admin" xmi:id="_yIpGhyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_HDI_USERNAME" value="admin" xmi:id="_yIpGiCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_AZURE_HOSTNAME" value="" xmi:id="_yIpGiSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_AZURE_CONTAINER" value="container" xmi:id="_yIpGiik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_AZURE_USERNAME" value="storage" xmi:id="_yIpGiyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_AZURE_DEPLOY_BLOB" value="" xmi:id="_yIpGjCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_HOST" value="https://xxxx.dev.azuresynapse.net" xmi:id="_yIpGjSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_AUTH_TOKEN" value="token" xmi:id="_yIpGjik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_SPARK_POOLS" value="sparkpools" xmi:id="_yIpGjyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_FS_HOSTNAME" value="https://xxxx.dfs.core.windows.net" xmi:id="_yIpGkCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_FS_CONTAINER" value="container" xmi:id="_yIpGkSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_FS_USERNAME" value="user" xmi:id="_yIpGkik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_FS_PASSWORD" value="password" xmi:id="_yIpGkyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_APPLICATION_ID" value="XXXX-XXXX-XXXX-XXXX-XXXX" xmi:id="_yIpGlCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_DIRECTORY_ID" value="XXXX-XXXX-XXXX-XXXX-XXXX" xmi:id="_yIpGlSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_CLIENT_KEY" value="" xmi:id="_yIpGlik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_CLIENT_CERTIFICATE" value="" xmi:id="_yIpGlyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SYNAPSE_DEPLOY_BLOB" value="/tmp" xmi:id="_yIpGmCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_DRIVER_MEMORY" value="2g" xmi:id="_yIpGmSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_DRIVER_CORES" value="1" xmi:id="_yIpGmik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_EXECUTOR_MEMORY" value="2g" xmi:id="_yIpGmyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_EXECUTOR_CORES" value="1" xmi:id="_yIpGnCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_UNIV_STANDALONE_MASTER" value="spark://localhost:7077" xmi:id="_yIpGnSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_UNIV_STANDALONE_EXEC_CORE" value="100" xmi:id="_yIpGnik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_UNIV_STANDALONE_EXEC_MEMORY" value="20G" xmi:id="_yIpGnyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_UNIV_SPARK_SUBMIT_SCRIPT_HOME" value="/opt/mapr/spark/spark-3.3.1/" xmi:id="_yIpGoCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_SPARK_MODE" value="YARN_CLUSTER" xmi:id="_yIpGoSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_CDE_API_ENDPOINT" value="" xmi:id="_yIpGoik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_CDE_TOKEN_ENDPOINT" value="" xmi:id="_yIpGoyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_CDE_WORKLOAD_PASSWORD" value="" xmi:id="_yIpGpCk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_CDE_WORKLOAD_USER" value="" xmi:id="_yIpGpSk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_HDI_PASSWORD" value="" xmi:id="_yIpGpik3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_AZURE_PASSWORD" value="" xmi:id="_yIpGpyk3Ee-mQ9cZJ7uHsg"/>
+  <parameters key="CONN_PARA_KEY_CDE_TOKEN" value="" xmi:id="_yIpGqCk3Ee-mQ9cZJ7uHsg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f7a3b015-ccc8-4810-b8b9-23bd2195f96f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MeOgEkd1vCaGEykM/+78gzQbWhjH3WmVw5V06DTnEhnXWz7rZVR4GNBxIBYZyh+/GHE9J9vV8nzO&#13;
+tDV9UP9mlA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ce141625-5d3f-4d48-b3bc-128b57dcfb02"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>18rUvO5WQqsZ358dsg0iZEggIkseGbIl45ommoz0EjoZ9CwsQkW/yfOdWU4luicamDJVFq4vF0aP&#13;
+w8sPqDSNWQ==</DigestValue></Reference></SignedInfo><SignatureValue>OQP+tQbjyWO7LEZuMsTgLlA/KiRULpQznsyt6rWWi/U9k0jE7j8ZyZm4z8ZAyl7lUFEvcJ+r4zPO&#13;
+9jMjOiOixAj2JUc0XpdtRkslu+mqioWkbwsaZPxTnxmNHNyvyuq47xhtmWoqykIfRur7IGsr4dyB&#13;
+S53O+/obsCGV2A6Z7eh5+3HMd95sSmHx6rsZkoX0uwwbrRRoJtHqypyHekQ/bfKwOgNxPeoiEFPr&#13;
+zSxC0UwnUY4jUu5mCEaAwE/2fBEx31+2Q82b0Y7uUe5FK6t2pChALkcIRoTpgjcwNkih8F1epLh6&#13;
+WvueY7jBk/hFugBMPOP5vqaT8fvo2gd0oQ9I2Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ce141625-5d3f-4d48-b3bc-128b57dcfb02" Target="#_f7a3b015-ccc8-4810-b8b9-23bd2195f96f"><Timestamp>2024-06-13 03:18:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendHadoopCluster:HadoopClusterConnection>
